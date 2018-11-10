@@ -17,8 +17,12 @@ Installation
 
 Install like so:
 ```
-...
+git clone git@github.com:jrob93/helio-rot-coords.git
+cd helio-rot-coords
+python setup.py build
+python setup.py install
 ```
+
 Here we have a simple example:
 
 ```python
