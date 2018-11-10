@@ -1,6 +1,9 @@
 # helio-rot-coords
 Here we provide functions to transform position and velocity coordinates for particles from the heliocentric reference frame to the rotating reference frame.
 
+Inline-style: 
+![alt text](https://github.com/jrob93/helio-rot-coords/blob/master/2d_Hill_fig_2.png)
+
 NOTES
 --------
 
