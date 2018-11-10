@@ -16,8 +16,11 @@ NOTES
 
 Installation
 -----------------------
-
-Install like so:
+Try install with pip:
+```
+pip install coord_transforms
+```
+Or you should be able to install like so:
 ```
 git clone git@github.com:jrob93/helio-rot-coords.git
 cd helio-rot-coords
