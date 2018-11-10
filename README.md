@@ -39,11 +39,11 @@ vel_rot=numpy.array([0,0,0])
 a=30*1.496e+11   
 t=0
 
-print(coord_transforms.rotating_to_heliocentric_array(pos,vel,a,t))
+print(coord_transforms.rotating_to_heliocentric_array(pos_rot,vel_rot,a,t))
 ```
 
 Documentation
 -------------
-I'm working on it!
+I'm working on it! I will put here the full list of fucntions available and how they work.
 
 Please do not hesitate to get in touch with any questions
