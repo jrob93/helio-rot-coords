@@ -7,16 +7,19 @@ NOTES
 * Define a orbital radius for the rotating frame
 * Define the position of the frame using a time variable. At t=0 the frame origin is at X=a, Y=0 in heliocentric coordinates
 * The assumed units are length in metres and time in seconds, therefore velocities are ms^{-1} 
-* gravitational constant G=6.67428e-11 m3 kg-1 s-2 and we assume a solar mass central body at the heliocentric origin, M=1.98855e30 # kg
+* gravitational constant G=6.67428e-11 m^{3} kg^{-1} s^{-2} and we assume a solar mass central body at the heliocentric origin, M=1.98855e30 kg
+* The functions accept a numpy array of (x,y,z) and (vx,vy,vz) for position and velocity respectively.
+* Multiple particles can be transformed if you pass arrays of shape (N,3)
+* The transformed position and velocity arrays will also be shape (N,3)
 
 Installation
 -----------------------
 
-Install like so ::
+Install like so:
 ```
-pip install transforms
+...
 ```
-Here we have a simple example::
+Here we have a simple example:
 
 ```python
 import numpy
