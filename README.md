@@ -20,7 +20,7 @@ Try install with pip:
 ```
 pip install coord_transforms
 ```
-* pip install incoming, need to add setup.py scripts to appropriate places*
+\* pip install incoming, need to add setup.py scripts to appropriate places\*
 
 Or you should be able to install manually like so:
 ```
