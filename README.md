@@ -20,14 +20,24 @@ Try install with pip:
 ```
 pip install coord_transforms
 ```
-Or you should be able to install like so:
+* pip install incoming, need to add setup.py scripts to appropriate places*
+
+Or you should be able to install manually like so:
 ```
 git clone git@github.com:jrob93/helio-rot-coords.git
 cd helio-rot-coords
 python setup.py build
 python setup.py install
 ```
+(This means that you will need to update the package manually by running the setup.py commands again)
 
+Note that you will then need to uninstall manually, by removing the install files. The install files can be found be reinstalling and recording where everything goes:
+```
+python setup.py install --record files.txt
+```
+
+Example
+-----------------------
 Here we have a simple example:
 
 ```python
